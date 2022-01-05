@@ -1,47 +1,96 @@
-# from tyype.tyype import Tyype
+# inty() e floaty()
 
 
 
-# print(Tyype.inty())
-# print(Tyype.inty('\nDigite um número inteiro.'))
+# from tyype.inty import *
+# print(Inty.inty())
 
 
-# print(Tyype.floaty())
-# print(Tyype.floaty('\nDigite um número.'))
-
-# print(Tyype.inty(1))
-# print(Tyype.floaty(1))
+# from tyype.floaty import *
+# print(Floaty.floaty())
 
 
-# print(Tyype.inty(1, ','))
-# print(Tyype.floaty(1, ','))
+# from tyype.inty import *
+# print(Inty.inty('\nDigite um número inteiro.'))
 
 
-# print(Tyype.inty(2))
-# print(Tyype.inty(2, ' '))
+# from tyype.floaty import *
+# print(Floaty.floaty('\nDigite um número.'))
 
 
-# print(Tyype.floaty(2))
-# print(Tyype.floaty(2, ' '))
+# from tyype.inty import *
+# print(Inty.inty(1))
 
 
-# print(Tyype.datey('\nData inválida.'))
-# print(Tyype.datey2('2021', 11, 27, '%Y-%m-%d'))
+# from tyype.floaty import *
+# print(Floaty.floaty(1))
 
 
-# print(Tyype.inty2(3.2))
-# print(Tyype.inty2(3))
-# print(Tyype.inty2('3'))
+# from tyype.inty import *
+# print(Inty.inty(1, ','))
 
 
-# print(Tyype.floaty2(3.2))
-# print(Tyype.floaty2('3'))
-# print(Tyype.floaty2(3.2))
+# from tyype.floaty import *
+# print(Floaty.floaty(1, ','))
 
 
-# print(Tyype.intyFile('test.txt'))
-# print(Tyype.intyFile('test.txt', ' '))
+# from tyype.inty import *
+# print(Inty.inty(2))
 
 
-# print(Tyype.floatyFile('test.txt'))
-# print(Tyype.floatyFile('test.txt', ' '))
+# from tyype.floaty import *
+# print(Floaty.floaty(2))
+
+
+# from tyype.inty import *
+# print(Inty.inty(2, ' '))
+
+
+# from tyype.floaty import *
+# print(Floaty.floaty(2, ' '))
+
+
+
+# inty2() e floaty2()
+
+
+
+# from tyype.inty import *
+# print(Inty.inty2(3))
+# print(Inty.inty2('3'))
+# print(Inty.inty2('3.5'))
+# print(Inty.inty2('asd'))
+
+
+# from tyype.floaty import *
+# print(Floaty.floaty2('3.5'))
+
+
+
+# intyFile() e floatyFile()
+
+
+
+# from tyype.inty import *
+# print(Inty.intyFile('test.txt'))
+# print(Inty.intyFile('test.txt', ' '))
+
+
+# from tyype.floaty import *
+# print(Floaty.floatyFile('test.txt'))
+# print(Floaty.floatyFile('test.txt', ' '))
+
+
+
+# datey() e datey2()
+
+
+
+# from tyype.datey import *
+# print(Datey.datey('\nData inválida.'))
+# print(Datey.datey('\nData inválida.', '\nDigite o ano:', '\nDigite o mês:', '\nDigite o dia:', '%d/%m/%Y'))
+
+
+# from tyype.datey import *
+# print(Datey.datey2('2021', 11, 21))
+# print(Datey.datey2('2021', 11, 21, '%d/%m/%Y'))

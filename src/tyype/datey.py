@@ -1,13 +1,13 @@
 import datetime
 
 
-from inty import *
+from tyype.inty import Inty
 
 
 
 class Datey(object):
 
-	def datey(message='\nDigite uma data válida.', yearMessage='\nDigite o ano:', monthMessage='\nDigite o mês:', dayMessage='\nDigite o dia:'):
+	def datey(message='\nDigite uma data válida.', yearMessage='\nDigite o ano:', monthMessage='\nDigite o mês:', dayMessage='\nDigite o dia:', s=None):
 		i = None
 
 
@@ -55,7 +55,11 @@ class Datey(object):
 
 
 			try:
-				i = datetime.date(y, m, d)
+				if(s is None):
+					i = datetime.date(y, m, d)
+			
+				else:
+					i = datetime.date(y, m, d).strftime(s)
 
 			except:
 				i = None

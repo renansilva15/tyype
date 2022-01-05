@@ -1,3 +1,20 @@
+Metadata-Version: 2.1
+Name: tyype
+Version: 0.0.3.0
+Summary: Pacote utilizado para tratar a entrada padrão
+Home-page: https://github.com/renansilva15/tyype
+Author: Renan Gabriel Gonçalves Silva
+Author-email: renangabrielsilva150@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/renansilva15/tyype
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
 # tyype
 
 Um pacote com com objetivo de tratar dados de entrada.
@@ -221,3 +238,4 @@ Caso deseje um formato diferente:
 >>> print(Datey.datey2('2021', 11, 21, '%d/%m/%Y'))
 21/11/2021
 ```
+

@@ -60,7 +60,8 @@ class Floaty(object):
 						aux=None
 
 					else:
-						i.append(aux2)
+						if(aux2 != []):
+							i.append(aux2)
 
 
 		elif(message == 2):

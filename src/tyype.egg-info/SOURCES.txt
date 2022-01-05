@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/tyype/__init__.py
+src/tyype/datey.py
+src/tyype/floaty.py
+src/tyype/inty.py
+src/tyype.egg-info/PKG-INFO
+src/tyype.egg-info/SOURCES.txt
+src/tyype.egg-info/dependency_links.txt
+src/tyype.egg-info/top_level.txt
